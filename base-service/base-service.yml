@@ -1,5 +1,5 @@
 server:
-  port: 8083
+  port: 8080
 
 spring:
   application:
@@ -17,7 +17,7 @@ spring:
       enabled: true
 
   datasource:
-    url: jdbc:h2:tcp://localhost/~/simplesns_test
+    url: jdbc:h2:tcp://localhost/~/simplesns
     #    url: jdbc:h2:mem:simplesns
     username: sa
     password:
